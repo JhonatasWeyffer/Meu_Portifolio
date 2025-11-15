@@ -6,8 +6,8 @@ import React, { useRef, useState, useEffect } from "react";
  * - Ao clicar na imagem alterna play/pause da música
  */
 export default function App({
-  imageSrc = "./src/assets/img.jpeg",
-  audioSrc = "./public/AC DC - Shoot To Thrill.mp3",
+  imageSrc = "/img.jpeg",
+  audioSrc = "/Shoot-To-Thrill.mp3",
 }) {
   // estado que diz se o áudio está tocando
   const [isPlaying, setIsPlaying] = useState(false);
