@@ -56,7 +56,7 @@ export default function App({
       <main className="card" role="main" aria-labelledby="title">
         <p className="subtitle">
           <em>
-            Portfólio — JhonWeyffer
+            Portifólio — JhonWeyffer
           </em>
         </p>
         <button
